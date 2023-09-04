@@ -41,11 +41,11 @@ cd ./NLP-proj
 The files used are all ```data/```, the names of the files used are in : ```conf/base/catalog.yml```
 Upload the datesets as follows :
 
- *Set up the training set in '''data/02_intermediate/train.csv'''
+ * Set up the training set in '''data/02_intermediate/train.csv'''
  
- *Set up the test set in '''data/02_intermediate/test.csv'''
+ * Set up the test set in '''data/02_intermediate/test.csv'''
  
- *Set up the test labels in '''data/02_intermediate/test_labels.csv'''
+ * Set up the test labels in '''data/02_intermediate/test_labels.csv'''
 
 
 ## Models available
