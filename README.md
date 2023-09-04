@@ -38,7 +38,7 @@ git clone
 cd ./NLP-proj
 ```
 ## Set up the datasets
-The files used are all ```data/```, the names of the files used are in : ```conf/base/catalog.yml```
+The files used are all ```data/```, the names of the files used are in : `conf/local/`
 Upload the datesets as follows :
 
  * Set up the training set in '''data/02_intermediate/train.csv'''
