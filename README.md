@@ -72,15 +72,13 @@ After configuring and choosing the model you want you run the following:
  ```
 The submissions will be available depending on the model as stated in the file `conf/base/catalog.yml`
 
-## Models available
+## Directory : 
 
-Have a look at the file `src/tests/test_run.py` for instructions on how to write your tests. You can run your tests as follows:
+Our code will all be available in `src/granlp/pipelines/`
 
-```
-kedro test
-```
+For example : 
 
-To configure the coverage threshold, go to the `.coveragerc` file.
+For the preprocessing code : `src/granlp/pipelines/preprocessing/nodes.py`
 
 
 
