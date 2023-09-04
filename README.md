@@ -47,8 +47,8 @@ Upload the datesets as follows :
 
 Choose the model and configure the parameters in : `conf/base/parameters.yml`
 ## Set up the DistilBert model : 
-Install the model DistilBERT (distilbert-base-uncase) from : (https://huggingface.co/docs/transformers/model_doc/distilbert)
-Place it in  `data/02_intermediate/train.csv`
+Install the model DistilBERT (distilbert-base-uncased) from : (https://huggingface.co/docs/transformers/model_doc/distilbert)
+Place it in  `data/02_intermediate/`
 
 ## To run the models:
 After configuring and choosing the model you want you run the following: 
