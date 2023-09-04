@@ -38,8 +38,8 @@ git clone
 cd ./NLP-proj
 ```
 ## Set up the datasets
-the files used are all ```data/```, the names of the files used are in : 
-
+The files used are all ```data/```, the names of the files used are in : ```conf/base/catalog.yml```
+Upload the datesets as follows :
 
 
 
