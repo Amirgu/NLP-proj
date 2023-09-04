@@ -1,0 +1,9 @@
+parameters:
+    model: 'DistilBert'           ####   Options : 'LSTM' or 'Tfidf' or 'DistilBert'
+    MAX_LEN: 512
+    TRAIN_BATCH_SIZE: 32                 #### 32 used for DistilBert , 48 LSTM
+    TEST_BATCH_SIZE: 128
+    EPOCHS: 3
+    LEARNING_RATE: 0.0001
+    NUM_WORKERS: 10
+    

@@ -1,0 +1,45 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+
+train_comments : 
+  filepath: data/02_intermediate/train.csv
+  type: pandas.CSVDataSet
+
+test_comments : 
+  filepath: data/02_intermediate/test.csv
+  type: pandas.CSVDataSet
+
+test_labels : 
+  filepath: data/02_intermediate/test_labels.csv
+  type: pandas.CSVDataSet
+
+
+train_comments_processed : 
+  filepath: data/03_primary/train_processed.csv
+  type: pandas.CSVDataSet
+test_comments_processed : 
+  filepath: data/03_primary/test_processed.csv
+  type: pandas.CSVDataSet
+
+train_dt :
+  type: pickle.PickleDataSet
+  filepath: data/datasets/04_feature/x.pkl
+
+val_dt :
+  type: pickle.PickleDataSet
+  filepath: data/datasets/04_feature/y.pkl
+
+test_dt :
+  type: pickle.PickleDataSet
+  filepath: data/datasets/04_feature/tx.pkl
+  
+submission : 
+  filepath: data/08_reporting/submission.csv
+  type: pandas.CSVDataSet
+
+submission_tfidf_logreg:
+    filepath: data/08_reporting/submission__tfidf_logreg.csv
+    type: pandas.CSVDataSet
