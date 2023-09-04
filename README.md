@@ -32,10 +32,10 @@ pip install -r src/requirements.txt
 You can run your Kedro project with:
 
 ```
-kedro run
+cd NLP-proj
 ```
-
-## How to test your Kedro project
+# Set up the project
+## Models available
 
 Have a look at the file `src/tests/test_run.py` for instructions on how to write your tests. You can run your tests as follows:
 
