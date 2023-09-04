@@ -28,15 +28,21 @@ To install them, run:
 ```
 pip install -r src/requirements.txt
 ```
-
-## How to run your Kedro pipeline
+# Set up the project
+## How to run the project
 
 You can run your Kedro project with:
 
 ```
-cd NLP-proj
+git clone 
+cd ./NLP-proj
 ```
-# Set up the project
+## Set up the datasets
+the files used are all ```data/```, the names of the files used are in : 
+
+
+
+
 ## Models available
 
 Have a look at the file `src/tests/test_run.py` for instructions on how to write your tests. You can run your tests as follows:
