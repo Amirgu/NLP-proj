@@ -2,7 +2,7 @@
 
 ## Overview
 Master MASH 2023 
-NLP project : Toxic comment classification
+NLP Course project : Jigsaw Toxic Comment classification https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 
 Models available :
   * DistilBERT
@@ -40,7 +40,9 @@ cd ./NLP-proj
 ## Set up the datasets
 The files used are all ```data/```, the names of the files used are in : ```conf/base/catalog.yml```
 Upload the datesets as follows :
-
+ *Set up the training set in 'data/02_intermediate/train.csv'
+ *Set up the test set in 'data/02_intermediate/test.csv'
+ *Set up the test labels in 'data/02_intermediate/test_labels.csv'
 
 
 ## Models available
